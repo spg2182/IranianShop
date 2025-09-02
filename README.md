@@ -58,7 +58,7 @@
 ### مراحل نصب
 1. کلون کردن ریپازیتوری:
    ```bash
-   git clone https://github.com/your-username/iranian-ecommerce.git
+   git clone (https://github.com/spg2182/IranianShop.git)
    cd iranian-ecommerce
    ```
 
@@ -241,7 +241,7 @@ An advanced and complete e-commerce system with order management, product manage
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/iranian-ecommerce.git
+   git clone (https://github.com/spg2182/IranianShop.git)
    cd iranian-ecommerce
    ```
 
@@ -252,7 +252,7 @@ An advanced and complete e-commerce system with order management, product manage
 
 3. Create the database:
    - Create a new database in MySQL
-   - Import the `database.sql` file into your database
+   - Import the `iranianshop.sql` file into your database
 
 4. Configure database connection:
    - Open the `includes/db_link.php` file and enter your database connection details:
@@ -266,7 +266,7 @@ An advanced and complete e-commerce system with order management, product manage
 
 6. Access the system:
    - Open the project in your browser
-   - To access the admin panel, use an account with "admin" access level
+   - To access the admin panel, use an account with "admin" access level, Password is admin1234
 
 ## Usage
 
@@ -319,7 +319,7 @@ An advanced and complete e-commerce system with order management, product manage
 
 This project is inspired by an existing GitHub project but has been extensively modified with the following changes:
 
-### Major Changes (Over 85% Different):
+### Major Changes (Over 95% Different):
 - **Complete Code Rewrite**: Improved structure and code readability
 - **MVC Architecture Implementation**: Separation of logic from presentation
 - **Enhanced Security**: Using prepared statements and preventing SQL Injection
